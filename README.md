@@ -24,5 +24,11 @@
   - OpenWeatherMap API (Retrofit2 + GsonConverterFactory)
   - Google Play Location Services
 
-** 실행 화면
+## 실행 화면
+- **회원가입 화면**
 - ![회원가입](images/image1.gif)
+
+- **그 외 기능들**
+- ![데모](images/image2.gif) ![데모](images/image2.gif) ![데모](images/image3.gif)
+
+
