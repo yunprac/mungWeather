@@ -25,11 +25,8 @@
   - Google Play Location Services
 
 ## 실행 화면
-- **회원가입 화면**
-  <img src="images/image1.gif" width="320" alt="앱 데모"/>
-
-- **그 외 기능들**
 <p>
+  <img src="images/image1.gif" width="240" />
   <img src="images/image2.gif" width="240" />
   <img src="images/image3.gif" width="240" />
   <img src="images/image4.gif" width="240" />
