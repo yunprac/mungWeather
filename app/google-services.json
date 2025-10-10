@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328447183430",
+    "project_id": "mungweather",
+    "storage_bucket": "mungweather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328447183430:android:74b36c6c404e0ce524d847",
+        "android_client_info": {
+          "package_name": "com.example.mungweather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbv1_gR4QSJMPRTjed5gW_BFUdfY--KNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
