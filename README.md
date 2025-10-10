@@ -26,9 +26,14 @@
 
 ## 실행 화면
 - **회원가입 화면**
-- ![회원가입](images/image1.gif)
+  ![회원가입](images/image1.gif)
 
 - **그 외 기능들**
-- ![데모](images/image2.gif) ![데모](images/image2.gif) ![데모](images/image3.gif)
+<p>
+  <img src="images/image2.gif" width="240" />
+  <img src="images/image3.gif" width="240" />
+  <img src="images/image4.gif" width="240" />
+</p>
+
 
 
