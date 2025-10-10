@@ -2,7 +2,7 @@
 > **반려견 보호자를 위한 맞춤형 날씨 & 산책 코디 추천 앱**
 
 <p align="center">
-  <img src="images/main.png" width="300" />
+  <img src="images/main.png" />
 </p>
 
 ---
@@ -50,8 +50,8 @@
 ## 📱 실행 화면
 
 <p align="center">
-  <img src="assets/screenshots/screen1.gif" width="200" />
-  <img src="assets/screenshots/screen2.gif" width="200" />
-  <img src="assets/screenshots/screen3.gif" width="200" />
-  <img src="assets/screenshots/screen4.gif" width="200" />
+  <img src="images/image1.gif" width="200" />
+  <img src="images/image2.gif" width="200" />
+  <img src="images/image3.gif" width="200" />
+  <img src="images/image4.gif" width="200" />
 </p>
