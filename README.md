@@ -26,7 +26,7 @@
 
 ## 실행 화면
 - **회원가입 화면**
-  ![회원가입](images/image1.gif)
+  <img src="images/image1.gif" width="320" alt="앱 데모"/>
 
 - **그 외 기능들**
 <p>
