@@ -1,36 +1,42 @@
-# mungWeather
+🐶 mungWeather
 
-## 개요
-**mungWeather**는 반려견 보호자를 위한 맞춤형 날씨 정보 및 산책/코디 추천 앱입니다. 사용자의 위치 정보를 바탕으로 OpenWeatherMap API에서 날씨 데이터를 가져오고, 반려견의 견종에 따라 추천 산책 시간과 의상 정보를 제공합니다. Firebase를 통한 회원가입/로그인과 사용자 정보 관리 기능을 지원합니다.
+반려견 보호자를 위한 맞춤형 날씨 & 산책 코디 추천 앱
 
-## 주요 기능
-- **회원가입/로그인**: Firebase Authentication 및 Realtime Database 사용. 이메일, 비밀번호, 이름, 반려견 견종 등 사용자 정보 저장.
-- **날씨 정보 제공**: OpenWeatherMap API를 이용해 현재 위치 기반의 날씨 정보를 받아옴.
-- **맞춤 산책/코디 추천**: 견종과 온도에 따라 추천 산책 시간 및 의상 정보를 안내.
-- **UI 및 사용자 경험**: ViewPager를 활용한 슬라이드 추천 화면, DrawerLayout의 프로필 메뉴, 도트 인디케이터 등 다양한 UI 제공.
+<p align="center"> <img src="images/image1.gif" width="200" /> <img src="images/image2.gif" width="200" /> <img src="images/image3.gif" width="200" /> <img src="images/image4.gif" width="200" /> </p>
+🌤️ 프로젝트 개요
 
-## 주요 클래스 및 역할
-- **Main**: 앱의 메인 액티비티. 날씨 정보 조회, 산책/코디 추천, 사용자 정보 표시, 뷰페이저 및 Drawer 메뉴 처리.
-- **Login**: 로그인 화면. Firebase와 연동해서 사용자 인증 및 DB 정보 조회.
-- **SignUp**: 회원가입 화면. 사용자 정보 입력 및 DB 저장 처리.
-- **ChangeDog**: 견종 및 온도에 따라 추천 정보를 변경하는 로직.
-- **ViewPagerAdapter**: 추천 슬라이드 화면을 위한 어댑터.
+mungWeather는 반려견 보호자를 위한 스마트 날씨 앱으로,
+사용자의 위치 기반 현재 날씨를 조회하고,
+견종별 맞춤 산책 시간과 의상을 추천해주는 서비스입니다.
 
-## 사용 기술 및 라이브러리
-- **언어**: Java (100%)
-- **주요 라이브러리**:
-  - AndroidX, ConstraintLayout, DrawerLayout, ViewPager
-  - Firebase Auth, Firebase Realtime Database
-  - OpenWeatherMap API (Retrofit2 + GsonConverterFactory)
-  - Google Play Location Services
+✨ 주요 기능
+기능	설명
+🐾 회원가입 / 로그인	Firebase Authentication & Realtime Database를 이용한 사용자 관리 (이메일, 비밀번호, 이름, 견종 등)
+☀️ 날씨 정보 제공	OpenWeatherMap API를 이용해 현재 위치 기반의 날씨 데이터를 표시
+👕 맞춤 산책/코디 추천	견종 + 온도 조건에 따라 최적의 산책 시간 & 의상 제안
+🎨 UI/UX 구성	ViewPager 기반 추천 슬라이드, Drawer 메뉴, 도트 인디케이터 등 다양한 UI 요소 제공
+🧩 주요 클래스 구성
+클래스	역할
+Main	메인 액티비티. 날씨 조회, 추천 표시, 프로필 메뉴 등 관리
+Login	Firebase 로그인 처리 및 사용자 인증
+SignUp	회원가입 및 사용자 정보 DB 저장
+ChangeDog	견종과 온도에 따른 추천 로직 구현
+ViewPagerAdapter	추천 슬라이드(ViewPager) 어댑터
+🛠️ 사용 기술 및 라이브러리
 
-## 실행 화면
-<p>
-  <img src="images/image1.gif" width="240" />
-  <img src="images/image2.gif" width="240" />
-  <img src="images/image3.gif" width="240" />
-  <img src="images/image4.gif" width="240" />
-</p>
+언어: Java (100%)
+주요 라이브러리 및 API:
 
+🔹 AndroidX, ConstraintLayout, DrawerLayout, ViewPager
 
+🔹 Firebase Auth, Firebase Realtime Database
 
+🔹 OpenWeatherMap API (Retrofit2 + GsonConverterFactory)
+
+🔹 Google Play Location Services
+
+📱 실행 화면
+<p align="center"> <img src="images/image1.gif" width="200" /> <img src="images/image2.gif" width="200" /> <img src="images/image3.gif" width="200" /> <img src="images/image4.gif" width="200" /> </p>
+
+📄 추가 자료
+[📄 mungWeather_Report.pdf](docs/mungWeather_Report.pdf)
