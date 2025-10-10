@@ -23,3 +23,6 @@
   - Firebase Auth, Firebase Realtime Database
   - OpenWeatherMap API (Retrofit2 + GsonConverterFactory)
   - Google Play Location Services
+
+** 실행 화면
+- ![회원가입](images/image1.gif)
