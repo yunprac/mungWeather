@@ -55,3 +55,12 @@
   <img src="images/image3.gif" width="200" />
   <img src="images/image4.gif" width="200" />
 </p>
+
+## 👥 팀원 소개
+
+| 이름 | GitHub |
+|:----|:----|:----|
+| **이윤영 (팀장)** | [@yunprac](https://github.com/yunprac) |
+| **임채연** | [@imceyen](https://github.com/imceyen) |
+| **이선예** |  |
+
