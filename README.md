@@ -12,8 +12,6 @@
 사용자의 위치 기반 **현재 날씨**를 조회하고,  
 **견종별 맞춤 산책 시간과 의상**을 추천해주는 서비스입니다.
 
----
-
 ## ✨ 주요 기능
 | 기능 | 설명 |
 |:---|:---|
@@ -21,8 +19,6 @@
 | ☀️ **날씨 정보 제공** | OpenWeatherMap API를 이용해 현재 위치 기반의 날씨 데이터를 표시 |
 | 👕 **맞춤 산책/코디 추천** | 견종 + 온도 조건에 따라 최적의 산책 시간 & 의상 제안 |
 | 🎨 **UI/UX 구성** | ViewPager 기반 추천 슬라이드, Drawer 메뉴, 도트 인디케이터 등 다양한 UI 요소 제공 |
-
----
 
 ## 🧩 주요 클래스 구성
 
@@ -34,8 +30,6 @@
 | `ChangeDog` | 견종과 온도에 따른 추천 로직 구현 |
 | `ViewPagerAdapter` | 추천 슬라이드(ViewPager) 어댑터 |
 
----
-
 ## 🛠️ 사용 기술 및 라이브러리
 
 **언어:** Java (100%)  
@@ -44,8 +38,6 @@
 - 🔹 Firebase Auth, Firebase Realtime Database  
 - 🔹 OpenWeatherMap API (Retrofit2 + GsonConverterFactory)  
 - 🔹 Google Play Location Services  
-
----
 
 ## 📱 실행 화면
 
